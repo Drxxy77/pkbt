@@ -1,0 +1,35 @@
+{
+  "name": "pikacord",
+  "version": "0.0.1",
+  "description": "Remake pokecord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://JustTheWise@github.com/JustTheWise/pikacord.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "pokemon"
+  ],
+  "author": "JustTheWise, UnGameur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustTheWise/pikacord/issues"
+  },
+  "homepage": "https://github.com/JustTheWise/pikacord#readme",
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "discord.js": "^12.2.0",
+    "moment": "^2.26.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "canvas": "^2.6.1",
+    "chalk": "^4.0.0",
+    "dotenv": "^8.2.0"
+  }
+}

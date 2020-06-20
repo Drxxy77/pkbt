@@ -1,0 +1,106 @@
+"use strict";
+
+module.exports = {
+    //Leveling System - (Event - Message)
+    LEVELUP_TITLE: `Congratulations {user}!`,
+    LEVELUP_DESC: `Your **{Pokemon}** (#{ID}) is now level \`{level}\`! <a:animatedUmbreon:718281045119860819>`,
+    //Error Register - (Event - Message)
+    MESSAGE_NO_REGISTER: `You have no account, do \`{prefix}start\` to start the adventure!`,
+    //Spawning (Event - Message)
+    SPAWNING_TITLE: `Catch this awesome pokemon!`,
+    //Prefix request (@Pikacord)
+    PREFIX_REQUEST: `My prefix is`,
+    //Command - Catch
+    CATCH_NO_SPAWN: `No pokemon in his grass!\n_You'll have to wait a little!_`,
+    CATCH_NOT_ADD: `This pokemon is not add!`,
+    CATCH_INCORRECT: `Incorrect pokemon!`,
+    CATCH_CAPTURE: `you just caught a`,
+    CATCH_HELP_TITLE: `Help - Catch`,
+    CATCH_HELP_USAGES: `Usages:`,
+    CATCH_HELP: `Catch a pokemon spawned in the channel!`,
+    //Command - Info
+    INFO_NO_POKEMON: `You have no pokemon!`,
+    INFO_STAT: `Statistic`,
+    INFO_LEVEl: `Level`,
+    INFO_ATTACK: `Attack`,
+    INFO_ATTACK_SPE: `Attack Special`,
+    INFO_DEFENSE: `Defense`,
+    INFO_DEFENSE_SPE: `Defense Special`,
+    INFO_SPEED: `Speed`,
+    INFO_NAME: `Name`,
+    INFO_HELP_TITLE: `Help - Info`,
+    INFO_HELP_USAGES: `Usages:`,
+    INFO_HELP: `Look the selected pokemon!`,
+    INFO_HELP_LATEST: `Look the latest pokemon!`,
+    INFO_HELP_NUMBER: `Look a specific pokemon!`,
+    //Command - Help
+    HELP_TITLE: `Help Menu`,
+    HELP_DESC: `You can get more details by doing: \`{prefix}<command> help\` !\nPrefix : \`{prefix}\``,
+    HELP_LINK: `Links`,
+    HELP_COMMANDS: `Commands`,
+    HELP_MANAGE: `Gestion`,
+    //Command - Select
+    SELECT_NO_ARG: `Please put the pokemon number!`,
+    SELECT_NOT_INT: `It's not a valid number!`,
+    SELECT_NO_POKEMON: `You have no pokemon!`,
+    SELECT_NOT_MUCH: `You have no pokemon with this number!`,
+    SELECT_END: `You have a new partner!`,
+    SELECT_HELP_TITLE: `Help - Select`,
+    SELECT_HELP: `Choose a partner`,
+    //Command - Pokémons
+    POKEMONS_NOT_INT: `It's not a valid number!`,
+    POKEMONS_NOT_MUCH: `You don't have enough Pokemon to ask for this page!`,
+    POKEMONS_HELP_TITLE: `Help - Pokemons`,
+    POKEMONS_HELP: `See the first 20 pokemons`,
+    POKEMONS_HELP_SPECIFIC: `See the pokemon on a specefic page`,
+    //Command - BotInfo
+    BOTINFO_SERVERS: `servers`,
+    BOTINFO_USERS: `users`,
+    BOTINFO_DETAILS: `Details`,
+    BOTINFO_ACCOUNT: `registered account`,
+    BOTINFO_USERS_CONNNECTED: `connected`,
+    BOTINFO_HELP_TITLE: `Help - Botinfo`,
+    BOTINFO_HELP_USAGES: `Usages:`,
+    BOTINFO_HELP: `Informations about Pikacord`,
+    //Command - Pokedex
+    POKEDEX_FIRST_CATCH: `Catch {moment} for the first time`,
+    POKEDEX_CATCH_NUMBER: `Caught {number} times`,
+    POKEDEX_NOT_CATCH: `Uncaught`,
+    POKEDEX_HELP_TITLE: `Help - Pokedex`,
+    POKEDEX_HELP: `Look the 1st pokemon details`,
+    POKEDEX_HELP_SPECIFIC: `Look the details about a specific pokemon`,
+    //Command - Start
+    START_PICKED: `You decided to start the adventure with **{Pokemon}**!`,
+    START_NOT_STARTER: `It's not a starter pokemon!`,
+    START_PICK_DESC: `Now, you have to write the english name of the pokemon you want!`,
+    START_PICK_TITLE: `Start the adventure!`,
+    START_ALREADY: `You are already a trainer!`,
+    START_PICH_FOOTER: `Just write the pokemon's name!`,
+    START_HELP_TITLE: `Help - Start`,
+    START_HELP: `Starting the adventure!`,
+    //Command - Redirect
+    REDIRECT_NO_PERM: `You have no permission do do this!`,
+    REDIRECT_NO_TARGET: `Please, specify a channel!`,
+    REDIRECT_SUCCESS_EDIT: `The redirect channel is {NewChannel} (Older: {OldChannel})!`,
+    REDIRECT_SUCCESS_NEW: `The redirect channel is {NewChannel}!`,
+    REDIRECT_HELP_TITLE: `Help - Redirect`,
+    REDIRECT_HELP: `Selecting a channel for apparitions`,
+    //Command - Leaderboard
+    TOP_HELP_TITLE: `Help - Leaderboard`,
+    TOP_HELP_USAGES: `Usages:`,
+    TOP_HELP_CATCH: `Ranking of all caught pokemons`,
+    TOP_HELP_RARITY: `rarity`,
+    TOP_HELP_RARITY_2: `Ranked by rarity`,
+    TOP_EMBED_DESC: `Real-time ranking based on the number of`,
+    TOP_EMBED_CATCH: `caught`,
+    //Command - Credits
+    CREDITS_HELP_TITLE: `Help - Credit`,
+    CREDITS_HELP: `See thanks to whom we can offer you Pikacord`,
+    CREDIT_TITLE: `Credit of Pikacord`,
+    //Command - Profile
+    PROFILE_HELP_TITLE: `Help - Profile`,
+    PROFILE_HELP: `Check your profile`,
+    PROFILE_HELP_SPECIFIC: `Look a specific player profile`,
+    PROFILE_NO_ACCOUNT: `This user haven't account!`,
+    PROFILE_PARTNER: `Partner`,
+}
